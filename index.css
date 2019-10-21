@@ -1,0 +1,117 @@
+
+
+* {
+    box-sizing: border-box;
+    display: inline-block;
+  vertical-align: top;
+  font-size: 22px;
+  font-family: Bangers;
+  margin-top: 5px;
+  text-align: center;
+  padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(197, 194, 22);
+    display: inline-block;
+    padding: 10px;
+}
+
+
+body{
+    background-image: url("/Users/md-loaner/UI/Mike1.jpg");
+    background-color: rgb(221, 137, 40); /* The page background will be black */
+    color: rgb(0, 0, 0); /* The page text will be white */
+}
+
+nav {
+		display: flex;
+	  justify-content: space-evenly;
+        margin: -200px -100px 200px 10px;
+        
+	}
+	
+	header nav a {
+		
+		margin: 0 auto;
+	}
+	img {
+        display: flex;
+        justify-content: space-evenly;
+        width: 200px;
+        padding: 30px -10px ;
+     
+    }
+   
+    
+   @media @mobile:~"(max-width: 500px)";
+  
+    a{text-decoration: none;
+        color:  rgb(221, 137, 40);
+        margin: 40px;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding: 40px;
+
+    @media { 
+      width: 100%
+    }
+  }
+
+
+
+    p{
+     color: rgb(221, 137, 40);
+      
+      flex-direction: center;
+      width: 100%;
+      
+      @media @phone {
+        
+        margin: 0 auto;
+        display: flex;
+        width: 460px;
+        height: 80px;
+        align-items: center;
+       font-size: 20px;
+        
+      }
+    }
+      h2 {
+          font-size: 20px;
+      }
+
+input[type=text], select, textarea {
+  width: 90%; /* Full width */
+  padding: 15px; /* Some padding */  
+  border: 3px solid #ccc; /* Gray border */
+  border-radius: 5px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 3px; /* Add a top margin */
+  margin-bottom: 10px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #dabc16;
+  padding: 20px;
+
+
+ 
+   
+    
