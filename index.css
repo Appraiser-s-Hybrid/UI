@@ -28,14 +28,15 @@ body{
 nav {
 		display: flex;
 	  justify-content: space-evenly;
-        margin: -200px -100px 200px 10px;
+    margin: -200px -100px 200px 10px;
         
 	}
 	
 	header nav a {
 		
 		margin: 0 auto;
-	}
+  }
+  
 	img {
         display: flex;
         justify-content: space-evenly;
@@ -50,12 +51,12 @@ nav {
     a{text-decoration: none;
         color:  rgb(221, 137, 40);
         margin: 40px;
-    justify-content: space-evenly;
-    font-size: 20px;
-    padding: 40px;
+        justify-items: right;
+        font-size: 20px;
+        padding: 40px;
 
-    @media { 
-      align-items: vertical;
+    @media{
+      
 
     }
   }
@@ -68,7 +69,7 @@ nav {
       flex-direction: center;
       width: 100%;
       
-      @media @mobile {
+      
         
         margin: 0 auto;
         display: flex;
