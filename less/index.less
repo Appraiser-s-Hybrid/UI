@@ -1,5 +1,3 @@
-
-
 * {
     box-sizing: border-box;
     display: inline-block;
@@ -46,33 +44,31 @@ img {
     }
    
     
-  @media(min-width: 500px){
+  @media(max-width: 500px){
   
   a{
         text-decoration: none;
         color:  rgb(221, 137, 40);
-        margin: 40px;
-        justify-items: right;
+        margin: 10px;
+        display: flex;
         font-size: 20px;
-        padding: 40px;
+        padding: 10px;
 
-  @media{
-      
 
-    }
+ 
   }
 
 
   p{
         color: rgb(221, 137, 40);
       
-        
+       
       }
   
-    }
+  }
      
 
-input[type=text], select, textarea {
+ input[type=text], select, textarea {
   width: 90%; 
   padding: 15px; 
   border: 3px solid #ccc; 
@@ -91,22 +87,26 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
+
 button{
   background-color: black;
   border-radius: 10px 0 0 20px;
   height: 75px 0;
+ 
 }
 
+ @media(max-width: 500px){
+   button{
+      border: 0px;
+      background-color: whitesmoke;
+   }
+ }
 input[type=submit]:hover {
   background-color: #ce1c1c;
-}
+} 
 
 .container {
   border-radius: 5px;
   background-color: #dabc16;
   padding: 20px;
-
-
- 
-   
-    
+}
