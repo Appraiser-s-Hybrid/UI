@@ -8,46 +8,49 @@
   text-align: center;
   padding: 5px;
 }
-a {
-  text-decoration: none;
-  color: #c5c216;
-  display: inline-block;
-  padding: 10px;
-}
-body {
-  background-image: url("/Users/md-loaner/UI/Mike1.jpg");
-  background-color: #dd8928;
-  /* The page background will be black */
-  color: #000000;
-  /* The page text will be white */
-}
-nav {
-  display: flex;
-  justify-content: space-evenly;
-  margin: -200px -100px 200px 10px;
-}
-header nav a {
-  margin: 0 auto;
-}
-img {
-  display: flex;
-  justify-content: space-evenly;
-  width: 200px;
-  padding: 30px -10px;
+@media (max-width: 1000px) {
+  a {
+    text-decoration: none;
+    color: #0d7c0d;
+    display: inline-block;
+    padding: 10px;
+  }
+  body {
+    background-image: url("/Users/md-loaner/UI/Mike1.jpg");
+    background-color: #dd8928;
+    /* The page background will be black */
+    color: #000000;
+    /* The page text will be white */
+  }
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: -200px -100px 200px 10px;
+  }
+  header nav a {
+    margin: 0 auto;
+  }
+  img {
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    padding: 30px -10px;
+  }
 }
 @media (max-width: 500px) {
-  a {
+  .container .top-bar {
     width: 100%;
-    background-color: #033d2f;
-    overflow: auto;
+    /*text-align: center;*/
+    /*justify-content: center;*/
   }
-  a {
-    float: left;
-    padding: 20px;
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-    width: 100%;
+  .container nav a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0%;
+  }
+  nav a {
+    border-top: 1px solid silver;
   }
   .navbar a:hover {
     background-color: #000;
@@ -55,17 +58,9 @@ img {
   .navbar a.active {
     background-color: #4CAF50;
   }
-  p {
-    color: #dd8928;
-  }
 }
-@media (max-width: 500px) and screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
+p {
+  color: #dd8928;
 }
 input[type=text],
 select,
@@ -73,11 +68,13 @@ textarea {
   width: 90%;
   padding: 15px;
   border: 3px solid #ccc;
-  border-radius: 5px;
+  border-radius: 1px;
   box-sizing: border-box;
   margin-top: 3px;
   margin-bottom: 10px;
   resize: vertical;
+  margin-right: 40px;
+  margin-left: 40px;
 }
 input[type=submit] {
   background-color: #4CAF50;
