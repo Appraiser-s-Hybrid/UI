@@ -1,8 +1,11 @@
+@import "variables";
+@import "mixins";
 
+ 
 
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
     display: inline-block;
     vertical-align: top;
     font-size: 22px;
@@ -11,11 +14,16 @@
     text-align: center;
     padding: 5px;
 }
+ 
+
+
+
 @media(max-width: 1000px){
 
-a{
-    text-decoration: none;
-    color: rgb(13, 124, 13);
+ 
+
+  a{
+  .nav(@butter, none);
     display: inline-block;
     padding: 10px;
 }
@@ -24,7 +32,7 @@ a{
 body{
     background-image: url("/Users/md-loaner/UI/Mike1.jpg");
     background-color: rgb(221, 137, 40); /* The page background will be black */
-    color: rgb(0, 0, 0); /* The page text will be white */
+    color: rgb(174, 218, 16); /* The page text will be white */
 }
 
 nav {
@@ -78,8 +86,8 @@ img {
 
 }
 
-  p{
-        color: rgb(221, 137, 40);
+   p{
+       color: rgb(221, 137, 40);
       
        
       }

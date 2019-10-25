@@ -10,8 +10,8 @@
 }
 @media (max-width: 1000px) {
   a {
-    text-decoration: none;
     color: #0d7c0d;
+    text-decoration: none;
     display: inline-block;
     padding: 10px;
   }
@@ -19,7 +19,7 @@
     background-image: url("/Users/md-loaner/UI/Mike1.jpg");
     background-color: #dd8928;
     /* The page background will be black */
-    color: #000000;
+    color: #aeda10;
     /* The page text will be white */
   }
   nav {
@@ -47,7 +47,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 0%;
+    padding: 10;
   }
   nav a {
     border-top: 1px solid silver;
