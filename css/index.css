@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 22px;
+  font-family: Bangers;
+  margin-top: 5px;
+  text-align: center;
+  padding: 5px;
+}
+@media (max-width: 1000px) {
+  a {
+    color: #0d7c0d;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+  }
+  body {
+    background-image: url("/Users/md-loaner/UI/Mike1.jpg");
+    background-color: #dd8928;
+    /* The page background will be black */
+    color: #aeda10;
+    /* The page text will be white */
+  }
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: -200px -100px 200px 10px;
+  }
+  header nav a {
+    margin: 0 auto;
+  }
+  img {
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    padding: 30px -10px;
+  }
+}
+@media (max-width: 500px) {
+  .container .top-bar {
+    width: 100%;
+    /*text-align: center;*/
+    /*justify-content: center;*/
+  }
+  .container nav a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10;
+  }
+  nav a {
+    border-top: 1px solid silver;
+  }
+  .navbar a:hover {
+    background-color: #000;
+  }
+  .navbar a.active {
+    background-color: #4CAF50;
+  }
+}
+p {
+  color: #dd8928;
+}
+input[type=text],
+select,
+textarea {
+  width: 90%;
+  padding: 15px;
+  border: 3px solid #ccc;
+  border-radius: 1px;
+  box-sizing: border-box;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  resize: vertical;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button {
+  background-color: black;
+  border-radius: 10px 0 0 20px;
+  height: 75px 0;
+}
+@media (max-width: 500px) {
+  button {
+    border: 0px;
+    background-color: whitesmoke;
+  }
+}
+input[type=submit]:hover {
+  background-color: #ce1c1c;
+}
+.container {
+  border-radius: 5px;
+  background-color: #085e24;
+  padding: 20px;
+}
