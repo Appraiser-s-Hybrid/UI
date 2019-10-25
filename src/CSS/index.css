@@ -1,27 +1,124 @@
 body .content-one {
-  border: 1px solid blue;
   display: flex;
   flex-direction: row;
+}
+body .content-one .left-content {
+  width: 50%;
+  margin: 5px;
+}
+body .content-one .left-content img {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+body .content-one .right-content {
+  width: 50%;
+  background-color: #4d4646;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding-top: 0px;
+  margin: 5px;
+  border-radius: 6px;
+}
+body .content-one .right-content h2 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 35px;
+  color: white;
+  margin-top: 20px;
+}
+body .content-one .right-content p {
+  font-size: 18px;
+  color: white;
+}
+body .content-two {
+  display: flex;
+  text-align: center;
+  height: 200px;
+  border-radius: 6px;
+  margin: 5px;
+  background-color: #4d4646;
+}
+body .content-two .right-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+body .content-two .right-content h2 {
+  color: white;
+  font-size: 35px;
+}
+body .content-two .right-content p {
+  color: white;
+  font-size: 18px;
+}
+body .content-three {
+  display: flex;
+  flex-direction: row;
+}
+body .content-three .left-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-color: #4d4646;
+  border-radius: 6px;
+  margin: 5px;
+}
+body .content-three .left-content h2 {
+  color: white;
+  font-size: 35px;
+}
+body .content-three .left-content p {
+  color: white;
+  font-size: 18px;
+}
+body .content-three .right-content {
+  border-radius: 6px;
+  margin: 5px;
+}
+body .footer {
+  border: 1px solid orangered;
+  background-color: crimson;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+body .footer p {
+  color: white;
+  font-size: 18px;
 }
 .navigation {
   display: flex;
   background-color: crimson;
 }
+.navigation .title {
+  margin-left: 10px;
+  display: flex;
+  text-align: center;
+  padding-top: 10px;
+}
+.navigation .title h1 {
+  color: white;
+}
 .navigation .navlinks {
   display: flex;
-  margin-left: 450px;
+  margin-left: 200px;
   margin-top: 10px;
   margin-bottom: 10px;
   width: 400px;
   justify-content: space-around;
 }
 .navigation .navlinks a {
+  color: white;
   display: block;
-  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 18px;
 }
 .navigation .navlinks a:hover {
-  color: white;
+  color: black;
 }
