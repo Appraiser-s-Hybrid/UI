@@ -1,0 +1,207 @@
+body .content-one {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 500px) {
+  body .content-one {
+    display: flex;
+    flex-direction: column;
+  }
+}
+body .content-one .left-content {
+  width: 50%;
+  margin: 5px;
+}
+@media screen and (max-width: 500px) {
+  body .content-one .left-content {
+    width: 95%;
+    margin-left: 13px;
+  }
+}
+body .content-one .left-content img {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+body .content-one .right-content {
+  width: 50%;
+  background-color: #4d4646;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding-top: 0px;
+  margin: 5px;
+  border-radius: 6px;
+}
+@media screen and (max-width: 500px) {
+  body .content-one .right-content {
+    width: 100%;
+    display: flex;
+    align-self: center;
+  }
+}
+body .content-one .right-content h2 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 35px;
+  color: white;
+  margin-top: 20px;
+}
+body .content-one .right-content p {
+  font-size: 18px;
+  color: white;
+}
+body .content-two {
+  display: flex;
+  text-align: center;
+  height: 200px;
+  border-radius: 6px;
+  margin: 5px;
+  background-color: #4d4646;
+}
+@media screen and (max-width: 500px) {
+  body .content-two {
+    width: 100%;
+    display: flex;
+    margin-left: 0;
+  }
+}
+body .content-two .right-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+body .content-two .right-content h2 {
+  color: white;
+  font-size: 35px;
+}
+body .content-two .right-content p {
+  color: white;
+  font-size: 18px;
+}
+body .content-three {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 500px) {
+  body .content-three {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+body .content-three .left-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-color: #4d4646;
+  border-radius: 6px;
+  margin: 5px;
+}
+@media screen and (max-width: 500px) {
+  body .content-three .left-content {
+    width: 100%;
+    align-self: center;
+  }
+}
+body .content-three .left-content h2 {
+  color: white;
+  font-size: 35px;
+}
+body .content-three .left-content p {
+  color: white;
+  font-size: 18px;
+}
+body .content-three .right-content {
+  border-radius: 6px;
+  margin: 5px;
+}
+@media screen and (max-width: 500px) {
+  body .content-three .right-content {
+    width: 100%;
+    align-self: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  body .content-three .right-content img {
+    margin-left: 45px;
+  }
+}
+body .footer {
+  border: 1px solid orangered;
+  background-color: crimson;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+body .footer p {
+  color: white;
+  font-size: 18px;
+}
+.navigation {
+  display: flex;
+  background-color: crimson;
+}
+@media screen and (max-width: 500px) {
+  .navigation {
+    width: 100%;
+  }
+}
+.navigation .title {
+  margin-left: 10px;
+  display: flex;
+  text-align: center;
+  padding-top: 10px;
+}
+@media screen and (max-width: 500px) {
+  .navigation .title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 22px;
+  }
+}
+.navigation .title h1 {
+  color: white;
+}
+@media screen and (max-width: 500px) {
+  .navigation .title h1 {
+    font-size: 20px;
+  }
+}
+.navigation .navlinks {
+  display: flex;
+  margin-left: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 400px;
+  justify-content: space-around;
+}
+@media screen and (max-width: 500px) {
+  .navigation .navlinks {
+    margin-left: 80px;
+    margin-top: 15px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+  }
+}
+.navigation .navlinks a {
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+@media screen and (max-width: 500px) {
+  .navigation .navlinks a {
+    font-size: 80%;
+  }
+}
+.navigation .navlinks a:hover {
+  color: black;
+}
