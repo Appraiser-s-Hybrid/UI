@@ -3,6 +3,11 @@
     //border: 1px solid white;
     background-color: crimson;
 
+    @media screen and (max-width: 500px) {
+        //border: 10px solid blue;
+        width: 100%;
+    }
+
     .title {
         //border: 1px solid black;
         margin-left: 10px;
@@ -10,9 +15,22 @@
         text-align: center;
         padding-top: 10px;
 
+        @media screen and (max-width: 500px) {
+            //border: 1px solid black;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            padding-top: 22px;
+        }
+
         h1 {
             color: white;
+
+            @media screen and (max-width: 500px) {
+                font-size: 20px;
+            }
         }
+
     }
 
     .navlinks {
@@ -24,6 +42,17 @@
         width: 400px;
         justify-content: space-around;
 
+        @media screen and (max-width: 500px) {
+            //border: 10px solid black;
+            margin-left: 80px;
+            margin-top: 15px;
+            width: 300px;
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            justify-content: center;
+        }
+
         a {
             color: white;
             text-decoration: none;
@@ -32,6 +61,10 @@
             padding: 14px 16px;
             text-decoration: none;
             font-size: 18px;
+
+            @media screen and (max-width: 500px) {
+                font-size: 80%;
+            }
         }
 
         a:hover {
