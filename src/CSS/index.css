@@ -1,0 +1,27 @@
+body .content-one {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: row;
+}
+.navigation {
+  display: flex;
+  background-color: crimson;
+}
+.navigation .navlinks {
+  display: flex;
+  margin-left: 450px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 400px;
+  justify-content: space-around;
+}
+.navigation .navlinks a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navigation .navlinks a:hover {
+  color: white;
+}
