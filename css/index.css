@@ -1,3 +1,69 @@
+.navigation {
+  display: flex;
+  background-color: crimson;
+}
+@media screen and (max-width: 500px) {
+  .navigation {
+    width: 100%;
+  }
+}
+.navigation .title {
+  margin-left: 10px;
+  display: flex;
+  text-align: center;
+  padding-top: 10px;
+}
+@media screen and (max-width: 500px) {
+  .navigation .title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 22px;
+  }
+}
+.navigation .title h1 {
+  color: white;
+}
+@media screen and (max-width: 500px) {
+  .navigation .title h1 {
+    font-size: 20px;
+  }
+}
+.navigation .navlinks {
+  display: flex;
+  margin-left: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 400px;
+  justify-content: space-around;
+}
+@media screen and (max-width: 500px) {
+  .navigation .navlinks {
+    margin-left: 80px;
+    margin-top: 15px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+  }
+}
+.navigation .navlinks a {
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+@media screen and (max-width: 500px) {
+  .navigation .navlinks a {
+    font-size: 80%;
+  }
+}
+.navigation .navlinks a:hover {
+  color: black;
+}
 * {
   box-sizing: border-box;
   display: inline-block;
@@ -9,27 +75,37 @@
   padding: 5px;
 }
 @media (max-width: 1000px) {
+  /*mixin and variables here*/
   a {
     color: #0d7c0d;
     text-decoration: none;
     display: inline-block;
     padding: 10px;
   }
+  .navigation {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+  }
   body {
-    background-image: url("/Users/md-loaner/UI/Mike1.jpg");
+    background-image: url("../Mike1.jpg");
     background-color: #dd8928;
     /* The page background will be black */
     color: #aeda10;
     /* The page text will be white */
   }
-  nav {
-    display: flex;
-    justify-content: space-evenly;
+  /* 
+nav {
+		display: flex;
+	  justify-content: space-evenly;
     margin: -200px -100px 200px 10px;
-  }
-  header nav a {
-    margin: 0 auto;
-  }
+        
+	}
+	
+header nav a {
+		
+		 margin: 0 auto;
+  } */
   img {
     display: flex;
     justify-content: space-evenly;
@@ -38,19 +114,14 @@
   }
 }
 @media (max-width: 500px) {
-  .container .top-bar {
+  .container {
     width: 100%;
     /*text-align: center;*/
     /*justify-content: center;*/
-  }
-  .container nav a {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 10;
-  }
-  nav a {
-    border-top: 1px solid silver;
   }
   .navbar a:hover {
     background-color: #000;
