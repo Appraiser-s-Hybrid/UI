@@ -1,3 +1,6 @@
+.round-borders {
+  border-radius: 6px;
+}
 body .content-one {
   display: flex;
   flex-direction: row;
